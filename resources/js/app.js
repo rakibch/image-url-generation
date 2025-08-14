@@ -1,12 +1,12 @@
-import { createApp } from 'vue'
-import BulkUploader from './components/BulkUploader.vue'
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { createApp } from 'vue';
 
-// Bootstrap 5 (CSS + JS)
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap'
+import BulkUploader from './components/BulkUploader.vue';
 
-createApp({
-  components: { BulkUploader }
-}).mount('#app')
+const app = createApp({});
 
+// Register global components if needed
+app.component('bulk-uploader', BulkUploader);
 
+app.mount('#app');
