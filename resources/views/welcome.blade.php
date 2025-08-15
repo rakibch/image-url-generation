@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Laravel 12 + Vue 3</title>
+    <title>Image Thumbnail Provider</title>
     @vite('resources/js/app.js')
 </head>
 <body>
